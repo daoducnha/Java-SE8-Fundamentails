@@ -1,0 +1,5 @@
+Dạ thưa cô, đay la link em tìm được:
+https://vi.wikipedia.org/wiki/Ph%C3%A9p_to%C3%A1n_thao_t%C3%A1c_bit
+
+trong này có nói về bitshift. Kiểu int thì biểu diễn bởi 32 bit, và khi Right-shift thì như là phép and vs giá trị 0X1f (31 cua hệ thâp phân = 11111(he nhi phan)),
+Còn Kiểu long la biểu diễn bởi 64 bit như là dùng phép and với 0x3f(63 với hệ thập phân = 111111cua hệ nhi phân)
