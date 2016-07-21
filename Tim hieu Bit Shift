@@ -5,7 +5,7 @@ trong này có nói về bitshift. Kiểu int thì biểu diễn bởi 32 bit, v
 Còn Kiểu long la biểu diễn bởi 64 bit như là dùng phép and với 0x3f(63 với hệ thập phân = 111111cua hệ nhi phân)
 VD int x = 10; 
 x >> 5
-=> 101000000 & 11111(bieu dien bang 5 so 1);
+=> 101000000 & 11111(bieu dien bang 5 so 1, 11111 = 31);
 long y = 10
 y >> 6
-=> 1010000000 & 111111(bieu dien bang 6 so 1) 
+=> 1010000000 & 111111(bieu dien bang 6 so 1, 111111 = 63) 
